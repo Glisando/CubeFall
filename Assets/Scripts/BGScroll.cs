@@ -23,6 +23,7 @@ public class BGScroll : MonoBehaviour
     {
         Vector2 offset = _meshRenderer.sharedMaterial.mainTextureOffset;
 
+
         offset.y += Time.deltaTime * _scrollSpeed;
         _meshRenderer.sharedMaterial.mainTextureOffset = offset;
     }
