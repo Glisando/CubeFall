@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{B1C9C7F9-0975-8D8E-4FE1-E465E9608695}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ConfigurationData/ConfigurationData.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlatformSpawner.cs" Line="77" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/Platform Scritps/Platform.cs" Line="24" Column="51" />
+      <File FileName="Assets/Scripts/Platform Scritps/BreakablePlatform.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/ConfigurationData/ConfigurationUtils.cs" Line="9" Column="36" />
+      <File FileName="Assets/Scripts/ConfigurationData/ConfigurationData.cs" Line="42" Column="10" />
+      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="24" Column="53" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cube Fall" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ConfigurationData" expanded="True">
+                  <Node name="ConfigurationData.cs" selected="True" />
+                </Node>
+                <Node name="Platform Scritps" expanded="True" />
+                <Node name="Player" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e5d89645-2935-436e-babb-17413a69d289" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
