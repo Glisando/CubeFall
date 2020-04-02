@@ -46,17 +46,17 @@ public class ConfigurationData
     {
         _keyValues = new Dictionary<string, float>();
 
-        string[] splitedNames = names.Split(',');
-        string[] splitedValues = values.Split(',');
+        string[] splittedNames = names.Split(',');
+        string[] splittedValues = values.Split(',');
 
-        if (splitedNames.Length != splitedValues.Length)
+        if (splittedNames.Length != splittedValues.Length)
         {
             throw new Exception("Some keys or values are missing");
         }
 
-        for (int i = 0, size = splitedValues.Length; i < size ; i++)
+        for (int i = 0, size = splittedValues.Length; i < size ; i++)
         {
-            _keyValues.Add(splitedNames[i], float.Parse(splitedValues[i]));
+            _keyValues.Add(splittedNames[i], float.Parse(splittedValues[i]));
         }
 
         playerSpeed = _keyValues["playerSpeed"];
